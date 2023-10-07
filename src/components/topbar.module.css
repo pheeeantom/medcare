@@ -1,0 +1,29 @@
+@import '../vars.css';
+
+.topbar {
+    background-color: var(--theme-black);
+    color: white;
+    padding: 10px var(--all-padding);
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.ul {
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+.li {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.li>svg>g:hover {
+    fill: var(--theme-hover-green);
+}
+.profile:hover {
+    color: #aaa;
+}

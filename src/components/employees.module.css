@@ -1,0 +1,32 @@
+@import '../vars.css';
+
+.bc {
+    margin: 0;
+    padding-top: 30px;
+}
+.caption {
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+}
+.card {
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+.card:hover {
+    background-color: var(--theme-dark-green);
+    color: white;
+}
+.card>p {
+    text-align: center;
+}
+.employees {
+    padding: 10px var(--all-padding);
+}
+.employees>div {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}

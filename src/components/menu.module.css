@@ -1,0 +1,42 @@
+@import '../vars.css';
+
+.menu {
+    padding: 10px var(--all-padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: inline-flex;
+    align-items: center;
+}
+.ul {
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+    display: inline-flex;
+    align-items: center;
+}
+.li {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.li:hover:not(.more) {
+    color: var(--theme-green);
+}
+.company-name {
+    font-weight: 700;
+    font-size: 24px;
+    display: inline;
+}
+.more {
+    color: white;
+    background-color: var(--theme-green);
+}
+.more:hover {
+    background-color: var(--theme-hover-green);
+}

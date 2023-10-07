@@ -1,0 +1,15 @@
+.indicators {
+    margin: 0;
+}
+.indicator {
+    cursor: pointer;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+}
+.indicator.active {
+    background: #eee;
+}

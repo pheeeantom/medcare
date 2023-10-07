@@ -1,0 +1,21 @@
+@import '../vars.css';
+
+.appointment {
+    background-color: var(--theme-dark-green);
+    padding: 0 var(--all-padding);
+    display: flex;
+    justify-content: space-between;
+}
+.caption {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 30px;
+}
+.bc {
+    margin: 0;
+}
+.bc, .caption, .dep-wrapper {
+    width: 100%;
+}

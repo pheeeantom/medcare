@@ -1,0 +1,20 @@
+@import '../vars.css';
+
+.green {
+    color: var(--theme-green);
+}
+.bg-white-round {
+    border-radius: 50%;
+    border-width: 0px;
+    background-color: white;
+    font-size: 27px;
+}
+.green {
+    color: var(--theme-green);
+}
+.pink {
+    color: var(--theme-pink);
+}
+.orange {
+    color: var(--theme-orange);
+}
